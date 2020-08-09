@@ -1,31 +1,13 @@
-// This file is part of Moodle - http://moodle.org/
-//
-// Moodle is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// Moodle is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+/*!
+* jquery.mask.js https://github.com/igorescobar/jQuery-Mask-Plugin
+* A jQuery Plugin to make masks on form fields and HTML elements.
+* Adapted to Moodle AMD Modules by @willianmano
+*
+* @version 1.14.16
+* @author Igor Escobar
+* @license: MIT
+*/
 
-// jquery.mask.js
-// @version: v1.14.16
-// @author: Igor Escobar
-// Created by Igor Escobar on 2012-03-10. Please report any bug at github.com/igorescobar/jQuery-Mask-Plugin
-// Adapted to Moodle AMD Modules by Willian Mano
-
-/**
- * InputMask js logic.
- *
- * @package    profilefield_masked
- * @copyright  2020 onwards Willian Mano {@link http://conecti.me}
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
 define(['jquery', 'profilefield_masked/mask'], function($, Mask) {
     var globals = {
         maskElements: 'input,td,span,div',

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>amd/src</location>
+    <name>jQuery Mask Plugin</name>
+    <license>MIT</license>
+    <version>1.14.16</version>
+    <licenseversion>1.0</licenseversion>
+  </library>
+</libraries>
