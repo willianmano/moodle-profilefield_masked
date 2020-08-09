@@ -14,14 +14,14 @@ Inside the field mask, just put the desired mask as the formats below:
 
 **First way**
 
-- Clone this repository into the folder user/profiles/field with the name **masked**
+- Clone this repository into the folder user/profile/field with the name **masked**
 - Access the notification area in moodle and install
 
 **Second way**
 
 - Download this repository
 - Extract the content
-- Put the folder into the folder folder user/profiles/field with the name **masked**
+- Put the folder into the folder folder user/profile/field with the name **masked**
 - Access the notification area in moodle and install
 
 ### Developed and maintained by
