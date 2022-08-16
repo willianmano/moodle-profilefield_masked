@@ -50,4 +50,25 @@ class profile_field_masked extends profile_field_base {
 
         $PAGE->requires->js_call_amd('profilefield_masked/inputmask', 'init');
     }
+
+    /**
+     * Display the data for this field
+     * @return string
+     */
+    public function display_data() {
+        global $OUTPUT;
+        $imgurl = $OUTPUT->image_url('whatsapp', 'profilefield_masked')->out(false);
+        $img = html_writer::img($imgurl, get_string('wpalt', 'profilefield_masked'));
+        if ($this->field->param2) {
+            if (strpos($this->data, '+') === 0) {
+                $number = '+' . preg_replace('~\D~', '', $this->data);
+            } else {
+                $number = '+55' . preg_replace('~\D~', '', $this->data);
+            }
+            return $this->data . ' ' .
+                   html_writer::link('https://wa.me/' . $number, get_string('shareonwhatsapp', 'profilefield_masked', $img));
+        } else {
+            return parent::display_data();
+        }
+    }
 }

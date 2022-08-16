@@ -42,7 +42,9 @@ class profile_define_masked extends profile_define_base {
         $form->addElement('text', 'param1', get_string('mask', 'profilefield_masked'));
         $form->setType('param1', PARAM_TEXT);
         $form->addHelpButton('param1', 'mask', 'profilefield_masked');
+
+        $form->addElement('advcheckbox', 'param2', get_string('whatsapplink', 'profilefield_masked'));
+        $form->setType('param1', PARAM_TEXT);
+        $form->addHelpButton('param2', 'whatsapplink', 'profilefield_masked');
     }
 }
-
-

@@ -30,3 +30,7 @@ $string['privacy:metadata:profilefield_masked:fieldid'] = 'O ID do campo de perf
 $string['privacy:metadata:profilefield_masked:data'] = 'Dados do usuário do plugin campo com máscara';
 $string['privacy:metadata:profilefield_masked:dataformat'] = 'O format do dado do plugin campo com máscara';
 $string['privacy:metadata:profilefield_masked:tableexplanation'] = 'Dados adicionais do perfil';
+$string['shareonwhatsapp'] = '({$a} Compartilhar no WhatsApp)';
+$string['whatsapplink'] = 'WhatsApp link?';
+$string['whatsapplink_help'] = 'Marque para mostrar com um link do WhatsApp na página de perfil do usuário.';
+$string['wpalt'] = 'Logomarca do WhatsApp';
