@@ -30,3 +30,7 @@ $string['privacy:metadata:profilefield_masked:fieldid'] = 'The ID of the profile
 $string['privacy:metadata:profilefield_masked:data'] = 'Masked profile field user data';
 $string['privacy:metadata:profilefield_masked:dataformat'] = 'The format of the masked user profile field user data';
 $string['privacy:metadata:profilefield_masked:tableexplanation'] = 'Additional profile data';
+$string['shareonwhatsapp'] = '({$a} Share on WhatsApp)';
+$string['whatsapplink'] = 'WhatsApp link?';
+$string['whatsapplink_help'] = 'Check to display with WhatsApp link in profile page.';
+$string['wpalt'] = 'WhatsApp logo';
